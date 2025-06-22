@@ -1,0 +1,11 @@
+Model: RandomForestClassifier
+Dataset: Breast Cancer (sklearn.datasets)
+
+Simulated Labels: Resource priority (low, medium, high)
+Train/test split: 80/20
+
+Accuracy: 0.33
+F1 Score: 0.34
+
+The model learned to classify priorities using numerical features.
+Random forest was chosen for its robustness and performance on tabular data.
